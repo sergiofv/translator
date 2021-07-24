@@ -2,40 +2,21 @@
 
 ## Installation
 
-DOWNLOAD APP
-
-1. Download or clone (https://github.com/sergiofv/translator.git) app repository.
-
-2. [Optional] Open a terminal, install virtualenv, create your custom virtual environment and activate it:
-
-```bash
-pip install virtualenv
-
-virtualenv venv
-
-/venv/Scripts/activate (win)
-
-source /venv/bin/activate (linux)
-```
-
-RUN VUE APP
-
-3. Make sure you have installed node.js and npm (https://nodejs.org/en/download/).
-
+1. Download or clone the [repository](https://github.com/sergiofv/translator.git).
+3. Make sure you have installed [Node.js](https://nodejs.org/en/download/) (npm).
 4. Open a terminal and install Vue CLI:
-
 ```bash
 npm install -g @vue/cli
 ```
-
-5. Go to the app folder and edit the .env file adding your authorization key for the API.
-
+5. Go to the app folder and edit the .env file adding your API key, if you don't have one get it [here](https://www.deepl.com/docs-api/accessing-the-api/authentication/).
+```
 VUE_APP_AUTH_KEY="Replace this text with your API key"
-
-6. Run the app in the terminal (../translator/) and access the URL specified to use the translator:
-
+```
+6. Open a terminal in the app folder, install the app and run it:
 ```bash
+npm install
 npm run serve
 ```
+7. Go to the URL specified in the terminal and use the translator.
 
-For any question or comment write an email to sfvsound@gmail.com
+by [sergiofv](sfvsound@gmail.com)
