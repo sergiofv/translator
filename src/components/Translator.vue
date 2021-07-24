@@ -71,10 +71,10 @@ export default {
         alert("Please select a language!");
         return;
       } else if (this.fromText === "") {
-        alert("Please enter text!");
+        alert("Please enter some text!");
         return;
       } else if (this.fromText.length > 4000) {
-        alert("Text cannot be more than 4000 characters long!");
+        alert("The text cannot be longer than 4000 characters!");
         return;
       }
       fetch(
