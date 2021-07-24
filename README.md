@@ -8,7 +8,7 @@
 ```bash
 npm install -g @vue/cli
 ```
-4. Go to the app folder and edit the .env file adding your API key in ```VUE_APP_AUTH_KEY="Replace this text with your API key"```, if you don't have one get it [here](https://www.deepl.com/docs-api/accessing-the-api/authentication/).
+4. Go to the app folder and edit the .env file adding your API key in the variable ```VUE_APP_AUTH_KEY```, if you don't have one get it [here](https://www.deepl.com/docs-api/accessing-the-api/authentication/).
 
 
 5. Open a terminal in the app folder, install the app and run it:
