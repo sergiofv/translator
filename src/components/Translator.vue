@@ -82,7 +82,14 @@ export default {
       )
         .then((res) => res.json())
         .then((data) => (this.translatedText = data.translations[0].text))
-        .catch((error) => (console.log(error), alert("Error!")));
+        .catch(
+          (error) => (
+            console.log(error),
+            alert(
+              "Error: Make sure you have your API key correct and run the app again!"
+            )
+          )
+        );
     },
   },
 };
